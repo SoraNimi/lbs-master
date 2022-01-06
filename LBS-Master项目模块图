@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T12:16:19.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YlS19-5hBgh1SJfQWLnA" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-06T12:16:36.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gMGvbfDTsMmdDDhxLgaI" version="16.1.0" type="github" pages="2">
   <diagram id="fWwagoeX0buluCE49zSx" name="组件图">
     <mxGraphModel dx="1051" dy="-582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,7 +323,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x3NHNVw4gKNbVMoo6wEN" name="MoveTrp">
-    <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="-613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wVuf77a8CX4UggbNN5KW-0" />
         <mxCell id="wVuf77a8CX4UggbNN5KW-1" parent="wVuf77a8CX4UggbNN5KW-0" />
@@ -355,10 +355,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dqmgztia5f_rY22zLsha-25" value="&lt;font face=&quot;Courier New&quot;&gt;进行src trp和desc trp的status、ip等信息判断&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#79d9ce;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontColor=#FFFFFF;" parent="wVuf77a8CX4UggbNN5KW-1" vertex="1">
-          <mxGeometry x="281.25" y="2418" width="132.5" height="70" as="geometry" />
+          <mxGeometry x="281.25" y="2390" width="132.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dqmgztia5f_rY22zLsha-27" value="将迁移信息写入datablock，并将dataBlock迁移计划写入到etcd中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#79d9ce;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontColor=#FFFFFF;" parent="wVuf77a8CX4UggbNN5KW-1" vertex="1">
-          <mxGeometry x="281.25" y="2530" width="132.5" height="70" as="geometry" />
+          <mxGeometry x="281.25" y="2500" width="132.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
