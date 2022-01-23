@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:02:49.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GQSQsynYidxCNvsDL9eV" version="16.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T10:34:36.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UVG6ywVskAIW1CqD9eUK" version="16.2.2" type="github" pages="4">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,7 +411,7 @@
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="JHxtzgNj8FYEzzfNkg2J-1" target="JHxtzgNj8FYEzzfNkg2J-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JHxtzgNj8FYEzzfNkg2J-1" value="获取新增chunk信息new Chunk以及通过Etcd中获取当前添加chunk集群中的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
+        <mxCell id="JHxtzgNj8FYEzzfNkg2J-1" value="获取三个集群中的chunk以及trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
           <mxGeometry x="988.75" y="1600" width="227.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="JHxtzgNj8FYEzzfNkg2J-3" target="JHxtzgNj8FYEzzfNkg2J-6">
