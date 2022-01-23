@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:25:09.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0Eq5qiMfm19LeYj8Ijmv" version="16.2.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:25:44.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="AZawO6hBiPmOdTDVzg_k" version="16.2.2" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -476,6 +476,14 @@
       <root>
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-0" />
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-1" parent="cg3gkHlyYtVyfJnu1a1E-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q3C8Nu0rjytVS3aDGOvG" name="自平衡">
+    <mxGraphModel dx="946" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8z2I-pytoBCdBTtT96x1-0" />
+        <mxCell id="8z2I-pytoBCdBTtT96x1-1" parent="8z2I-pytoBCdBTtT96x1-0" />
       </root>
     </mxGraphModel>
   </diagram>
