@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T09:15:05.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Fv57eWzAW4Sbr-X_UDxF" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-23T09:17:38.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ZptmhRrNrwRMNKW7l42V" version="16.2.2" type="github" pages="3">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,14 +367,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tzDiYUK7zzm_4bMxY6E2" name="lose TRP">
-    <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="119" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8IXDpfDYZFjAjhtm6vo8-0" />
         <mxCell id="8IXDpfDYZFjAjhtm6vo8-1" parent="8IXDpfDYZFjAjhtm6vo8-0" />
         <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
           <mxGeometry x="988.25" y="1910" width="227.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群其他chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择当前chunk为chunkQPS最小的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群其他chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择currnet chunk为chunkQPS最小的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
           <mxGeometry x="962.5" y="2000" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XUYjq1fA3bt75nVjLZsD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="8IXDpfDYZFjAjhtm6vo8-1" target="XUYjq1fA3bt75nVjLZsD-4">
@@ -392,14 +392,8 @@
             <mxPoint x="1102" y="2220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-9" value="对需要move的trp根据trp QPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
           <mxGeometry x="962.5" y="2110" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;fontColor=#CC0000;" edge="1" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-17" target="XUYjq1fA3bt75nVjLZsD-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-17" value="选择下一个trp" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
-          <mxGeometry x="620" y="2230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
