@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:14:17.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Cb7kZTEhRVIR6_sjA5kT" version="16.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:14:32.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3Q9MeHsWzl_wtRp5ltF8" version="16.2.2" type="github" pages="4">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,6 +461,9 @@
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-33" value="结束" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
           <mxGeometry x="600" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHxtzgNj8FYEzzfNkg2J-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="JHxtzgNj8FYEzzfNkg2J-36" target="JHxtzgNj8FYEzzfNkg2J-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-36" value="将剩余的surplus个Trp分配到集群的chunkQPS最大的surplus个chunk上" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
           <mxGeometry x="1042" y="2380" width="120" height="60" as="geometry" />
