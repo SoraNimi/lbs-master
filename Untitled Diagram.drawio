@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:29:34.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="D-ZI15Jz90wZ93bSLrRO" version="16.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:33:51.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jkETYA1Xn7psbDmD_egU" version="16.2.2" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,8 +479,8 @@
         <mxCell id="p0NkoxevK3sSNU6XxeeL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-1" target="p0NkoxevK3sSNU6XxeeL-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-1" value="根据当前集群需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="cg3gkHlyYtVyfJnu1a1E-1">
-          <mxGeometry x="998.75" y="1910" width="227.5" height="50" as="geometry" />
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-1" value="根据传入的缩容chunks信息，获取当前集群其他chunk以及trp信息以及要缩容机器上的trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="cg3gkHlyYtVyfJnu1a1E-1">
+          <mxGeometry x="984.38" y="1890" width="256.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p0NkoxevK3sSNU6XxeeL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-3" target="p0NkoxevK3sSNU6XxeeL-5">
           <mxGeometry relative="1" as="geometry" />
