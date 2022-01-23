@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:34:36.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UVG6ywVskAIW1CqD9eUK" version="16.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:09:45.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="RhaZDDcUZ1N0RiH1igpX" version="16.2.2" type="github" pages="4">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NAmjX9BvwKrC9EwPKeyr" name="CreateTable">
-    <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="-610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_tTqbgAYzmCVeNze15fX-0" />
         <mxCell id="_tTqbgAYzmCVeNze15fX-1" parent="_tTqbgAYzmCVeNze15fX-0" />
@@ -417,8 +417,8 @@
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="JHxtzgNj8FYEzzfNkg2J-3" target="JHxtzgNj8FYEzzfNkg2J-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JHxtzgNj8FYEzzfNkg2J-3" value="获取集群chunkQPS总和clusterQPS，并根据当前集群总chunk数量获取平均一台chunk平均QPS(averageChunkQPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
-          <mxGeometry x="945" y="1703" width="315" height="100" as="geometry" />
+        <mxCell id="JHxtzgNj8FYEzzfNkg2J-3" value="遍历三个集群，对当前集群所有chunk根据chunkQPS从小到大进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
+          <mxGeometry x="944.5" y="1720" width="315" height="67" as="geometry" />
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-4" value="对当前集群其他chunk根据chunkQPS&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;进行排序，并对chunk内部trp根据trpQPS&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;进行排序，选择当前chunk为chunkQPS最大的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
           <mxGeometry x="962.5" y="2000" width="280" height="70" as="geometry" />
@@ -426,7 +426,7 @@
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="JHxtzgNj8FYEzzfNkg2J-6" target="JHxtzgNj8FYEzzfNkg2J-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JHxtzgNj8FYEzzfNkg2J-6" value="基于平均QPS计算averageChunkQPSUp(1.05&amp;nbsp;averageChunkQPS&lt;br&gt;)和averageChunkQPSDown(0.95&amp;nbsp;averageChunkQPS&lt;br&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
+        <mxCell id="JHxtzgNj8FYEzzfNkg2J-6" value="根据传入table的PartitionId(分区数)以及ReplicaId(副本数)计算trp总数，并根据当前集群chunk，获取平均一台chunk至少分配的trp数量(averageTrp)以及多余的trp(surplusTrp)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
           <mxGeometry x="944.5" y="1850" width="315" height="100" as="geometry" />
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" target="JHxtzgNj8FYEzzfNkg2J-9">
