@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:20:08.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="lzc2OvAsnoQ60C8wi8BW" version="16.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-23T08:25:45.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uhbRA-rB_XU2nGu5YfJm" version="16.2.2" type="github" pages="2">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="996" dy="-610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -251,11 +251,17 @@
             <mxPoint x="1090.0000000000002" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-0" value="通过Etcd获取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+        <mxCell id="84n5sTx252W-ymqBMe2K-0" value="通过Etcd中获取当前添加chunk集群中的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
           <mxGeometry x="980" y="1580" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-3" value="通过Etcd获取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
-          <mxGeometry x="980" y="1650" width="220" height="40" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-3" target="84n5sTx252W-ymqBMe2K-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84n5sTx252W-ymqBMe2K-3" value="获取集群chunkQPS总和clusterQPS，并根据当前集群总chunk数量获取平均一台chunk平均QPS(averageChunkQPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+          <mxGeometry x="950" y="1650" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="84n5sTx252W-ymqBMe2K-5" value="对当前集群其他chunk根据chunkQPS从大到小进行排序，并对chunk内部trp根据trpQPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+          <mxGeometry x="950" y="1754" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
