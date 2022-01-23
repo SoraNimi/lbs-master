@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T09:11:10.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tg3O5ttw47ktukRWuRJs" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-23T09:13:29.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="eJE6NedNDLJOxgQag0Pz" version="16.2.2" type="github" pages="3">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -374,7 +374,7 @@
         <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据需要恢复的chunks，去其他的集群中获取需要迁移的trp的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
           <mxGeometry x="988.25" y="1910" width="227.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群其他chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择当前chunk为chunkQPS最大的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群其他chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择当前chunk为chunkQPS最小的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8IXDpfDYZFjAjhtm6vo8-1">
           <mxGeometry x="962.5" y="2000" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XUYjq1fA3bt75nVjLZsD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="8IXDpfDYZFjAjhtm6vo8-1" target="XUYjq1fA3bt75nVjLZsD-4">
