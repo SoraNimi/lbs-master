@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T08:16:24.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="oEIbPzstLGBk2Dm7Pb61" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T08:20:53.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JeJ6ENFRe4dBvZou-t6j" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,39 +353,45 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tzDiYUK7zzm_4bMxY6E2" name="lose TRP">
-    <mxGraphModel dx="-99" dy="-761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="ysm34bxXQ8MwlV_Ft3lU" name="缩容">
+    <mxGraphModel dx="119" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="8IXDpfDYZFjAjhtm6vo8-0" />
-        <mxCell id="8IXDpfDYZFjAjhtm6vo8-1" parent="8IXDpfDYZFjAjhtm6vo8-0" />
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-1" target="XUYjq1fA3bt75nVjLZsD-41" edge="1">
+        <mxCell id="cg3gkHlyYtVyfJnu1a1E-0" />
+        <mxCell id="cg3gkHlyYtVyfJnu1a1E-1" parent="cg3gkHlyYtVyfJnu1a1E-0" />
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-1" target="p0NkoxevK3sSNU6XxeeL-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据当前集群需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunks信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
-          <mxGeometry x="998.75" y="1910" width="227.5" height="50" as="geometry" />
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-1" value="根据传入的缩容chunks信息，获取当前集群其他chunk以及trp信息以及要缩容机器上的trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+          <mxGeometry x="984.38" y="1920" width="255.62" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-4" target="XUYjq1fA3bt75nVjLZsD-39" edge="1">
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-3" target="p0NkoxevK3sSNU6XxeeL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择currnet chunk为chunkQPS最小的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-3" value="&amp;nbsp;对当前集群剩余chunk根据chunkQPS从小到大进行排序，并对所有迁移的trp根据trpQPS从大到小进行排序。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
           <mxGeometry x="972.5" y="2110" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-39" target="XUYjq1fA3bt75nVjLZsD-4" edge="1">
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-5" target="p0NkoxevK3sSNU6XxeeL-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-5" value="选择还未迁移的trp中trpQPS最大的trp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+          <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-7" target="p0NkoxevK3sSNU6XxeeL-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-7" value="根据cluster中所有的trp计算出clusterQPS(所有的trpQPS相加),以及剩下的chunk平均一台分配的chunkQPS(clusterQPS/chunk数量)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+          <mxGeometry x="972.5" y="2000" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-8" target="p0NkoxevK3sSNU6XxeeL-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="900" y="2255" />
-              <mxPoint x="900" y="2128" />
+              <mxPoint x="890" y="2365" />
+              <mxPoint x="890" y="2255" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-39" value="选择trpQPS仍未迁移的最大的trp迁移到当前集群的current chunk，并实时预更新当前集群chunk的chunkQPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
-          <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-41" target="XUYjq1fA3bt75nVjLZsD-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-41" value="对需要copy的trps根据trpQPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
-          <mxGeometry x="972.5" y="2000" width="280" height="70" as="geometry" />
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-8" value="将该trp迁移到当前集群chunkQPS最小的chunk，并更新集群chunk信息以及根据chunkQPS从小到大进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+          <mxGeometry x="972.5" y="2330" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -448,49 +454,6 @@
         </mxCell>
         <mxCell id="JHxtzgNj8FYEzzfNkg2J-36" value="&lt;font style=&quot;font-size: 14px&quot;&gt;将剩余的surplus个Trp分配到集群的chunkQPS最小的surplus个chunk上&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="_tTqbgAYzmCVeNze15fX-1" vertex="1">
           <mxGeometry x="1026" y="2370" width="152" height="70" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ysm34bxXQ8MwlV_Ft3lU" name="缩容">
-    <mxGraphModel dx="119" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="cg3gkHlyYtVyfJnu1a1E-0" />
-        <mxCell id="cg3gkHlyYtVyfJnu1a1E-1" parent="cg3gkHlyYtVyfJnu1a1E-0" />
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-1" target="p0NkoxevK3sSNU6XxeeL-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-1" value="根据传入的缩容chunks信息，获取当前集群其他chunk以及trp信息以及要缩容机器上的trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
-          <mxGeometry x="984.38" y="1920" width="255.62" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-3" target="p0NkoxevK3sSNU6XxeeL-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-3" value="&amp;nbsp;对当前集群剩余chunk根据chunkQPS从小到大进行排序，并对所有迁移的trp根据trpQPS从大到小进行排序。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
-          <mxGeometry x="972.5" y="2110" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-5" target="p0NkoxevK3sSNU6XxeeL-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-5" value="选择还未迁移的trp中trpQPS最大的trp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
-          <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-7" target="p0NkoxevK3sSNU6XxeeL-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-7" value="根据cluster中所有的trp计算出clusterQPS(所有的trpQPS相加),以及剩下的chunk平均一台分配的chunkQPS(clusterQPS/chunk数量)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
-          <mxGeometry x="972.5" y="2000" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-8" target="p0NkoxevK3sSNU6XxeeL-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="890" y="2365" />
-              <mxPoint x="890" y="2255" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-8" value="将该trp迁移到当前集群chunkQPS最小的chunk，并更新集群chunk信息以及根据chunkQPS从小到大进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
-          <mxGeometry x="972.5" y="2330" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -613,6 +576,43 @@
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-85" value="Src Chunk是否已经遍历完全部trp" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="8z2I-pytoBCdBTtT96x1-1" vertex="1">
           <mxGeometry x="827" y="1770" width="550" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tzDiYUK7zzm_4bMxY6E2" name="lose TRP">
+    <mxGraphModel dx="-99" dy="-761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8IXDpfDYZFjAjhtm6vo8-0" />
+        <mxCell id="8IXDpfDYZFjAjhtm6vo8-1" parent="8IXDpfDYZFjAjhtm6vo8-0" />
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-1" target="XUYjq1fA3bt75nVjLZsD-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据当前集群需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunks信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+          <mxGeometry x="998.75" y="1910" width="227.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-4" target="XUYjq1fA3bt75nVjLZsD-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-4" value="对当前集群chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从小到大&lt;/font&gt;进行排序，选择currnet chunk为chunkQPS最小的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+          <mxGeometry x="972.5" y="2110" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-39" target="XUYjq1fA3bt75nVjLZsD-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="2255" />
+              <mxPoint x="900" y="2128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-39" value="选择trpQPS仍未迁移的最大的trp迁移到当前集群的current chunk，并实时预更新当前集群chunk的chunkQPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+          <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-41" target="XUYjq1fA3bt75nVjLZsD-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-41" value="对需要copy的trps根据trpQPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+          <mxGeometry x="972.5" y="2000" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
