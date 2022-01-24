@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T07:54:56.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xY-VhlApSEO0FVCZ80Oy" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T07:57:03.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="uRukYJO4PAOu8oZqWVKP" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -354,14 +354,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tzDiYUK7zzm_4bMxY6E2" name="lose TRP">
-    <mxGraphModel dx="-175" dy="-803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-99" dy="-761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8IXDpfDYZFjAjhtm6vo8-0" />
         <mxCell id="8IXDpfDYZFjAjhtm6vo8-1" parent="8IXDpfDYZFjAjhtm6vo8-0" />
         <mxCell id="XUYjq1fA3bt75nVjLZsD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-1" target="XUYjq1fA3bt75nVjLZsD-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据当前集群需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-1" value="根据当前集群需要恢复的chunks(可能为多个chunk)，去其他的集群中获取需要迁移的trp的chunks信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
           <mxGeometry x="998.75" y="1910" width="227.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XUYjq1fA3bt75nVjLZsD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-4" target="XUYjq1fA3bt75nVjLZsD-39" edge="1">
@@ -378,13 +378,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-39" value="选择trpQPS最大的trp迁移到当前集群的current chunk，并实时预更新当前集群chunk的chunkQPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-39" value="选择trpQPS仍未迁移的最大的trp迁移到当前集群的current chunk，并实时预更新当前集群chunk的chunkQPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
           <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XUYjq1fA3bt75nVjLZsD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8IXDpfDYZFjAjhtm6vo8-1" source="XUYjq1fA3bt75nVjLZsD-41" target="XUYjq1fA3bt75nVjLZsD-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XUYjq1fA3bt75nVjLZsD-41" value="对需要move的trp根据trpQPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
+        <mxCell id="XUYjq1fA3bt75nVjLZsD-41" value="对需要copy的trps根据trpQPS从大到小进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="8IXDpfDYZFjAjhtm6vo8-1" vertex="1">
           <mxGeometry x="972.5" y="2000" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
