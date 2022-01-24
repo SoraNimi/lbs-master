@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T06:21:24.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KlOjzlgXBqEbxDTi5onO" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T06:22:30.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MSWD1f6jKdepBjOiUZ6A" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -588,14 +588,14 @@
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-60" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="awUfxjWAZIbXbm8-vHBL-58">
           <mxGeometry x="-0.5256" y="-1" relative="1" as="geometry">
-            <mxPoint y="-9" as="offset" />
+            <mxPoint x="-22" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-26" value="迁移当前trp后当前chunkQPS小于averageQPS上界" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="8z2I-pytoBCdBTtT96x1-1">
           <mxGeometry x="827.5" y="2250" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-32" value="&lt;span&gt;将该trp迁移加入平衡计划，并结束该chunk平衡计划计算&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="8z2I-pytoBCdBTtT96x1-1">
-          <mxGeometry x="1042.5" y="2420" width="120" height="60" as="geometry" />
+          <mxGeometry x="1041.99" y="2410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8z2I-pytoBCdBTtT96x1-1" target="awUfxjWAZIbXbm8-vHBL-38">
           <mxGeometry relative="1" as="geometry">
