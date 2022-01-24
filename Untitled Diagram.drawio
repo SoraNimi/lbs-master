@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T03:41:39.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0a8itq6IQMaCEDePCKgZ" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T03:47:30.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="vjHG-GOK8fcFwC1rAx9j" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -522,8 +522,8 @@
         <mxCell id="awUfxjWAZIbXbm8-vHBL-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="8z2I-pytoBCdBTtT96x1-1" source="awUfxjWAZIbXbm8-vHBL-1" target="awUfxjWAZIbXbm8-vHBL-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="awUfxjWAZIbXbm8-vHBL-1" value="获取新增chunk信息new Chunk以及通过Etcd中获取当前添加chunk集群中的chunk信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8z2I-pytoBCdBTtT96x1-1">
-          <mxGeometry x="988.75" y="1600" width="227.5" height="50" as="geometry" />
+        <mxCell id="awUfxjWAZIbXbm8-vHBL-1" value="&lt;div&gt;通过访问Etcd，获取当前集群chunk信息以及trp信息，并计算clusterQPS、averageChunkQPS、averageChunkQPSUp、averageChunkQPSDown&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="8z2I-pytoBCdBTtT96x1-1">
+          <mxGeometry x="968.87" y="1590" width="266.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="awUfxjWAZIbXbm8-vHBL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="8z2I-pytoBCdBTtT96x1-1" source="awUfxjWAZIbXbm8-vHBL-3" target="awUfxjWAZIbXbm8-vHBL-6">
           <mxGeometry relative="1" as="geometry" />
