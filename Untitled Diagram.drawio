@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T08:24:03.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4i4qkLPjIpf7ZsVTU-cf" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T08:24:26.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m8QzSn5-CnrniYfYGzwd" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,7 +390,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-8" value="将该trp迁移到当前集群chunkQPS最小的chunk，更新集群chunk信息并根据chunkQPS从小到大进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-8" value="将该trp迁移到当前集群chunkQPS最小的chunk，更新集群chunk信息并根据chunkQPS对当前集群chunk从小到大进行排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
           <mxGeometry x="972.5" y="2330" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
