@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T08:45:31.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="E3WOPCrqzPHOI-YYV1qr" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-24T08:46:35.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Ba6nG91wq83CTfWV3_kg" version="16.4.5" type="github" pages="6">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
             <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-22" value="迁移SrcTrp后new ChunkQPS在averageQPS上下界之间" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+        <mxCell id="84n5sTx252W-ymqBMe2K-22" value="迁移SrcTrp后DescChunkQPS在averageQPS上下界之间" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
           <mxGeometry x="827" y="2338" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-24" value="选择下一个trp" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
@@ -324,7 +324,7 @@
         <mxCell id="QmGAp2PCZTOW6I298WSz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-30" target="84n5sTx252W-ymqBMe2K-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-30" value="迁移当前trp后srcChunkQPS小于averageQPS下界" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+        <mxCell id="84n5sTx252W-ymqBMe2K-30" value="迁移当前trp后DescChunkQPS小于averageQPS下界" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
           <mxGeometry x="827" y="2470" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.333;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-32" target="84n5sTx252W-ymqBMe2K-24" edge="1">
@@ -354,7 +354,7 @@
         <mxCell id="jMRk-R43l8CRy82hbGqx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QjkoPsIQRl-Pro7B5hFz-1" source="jMRk-R43l8CRy82hbGqx-2" target="84n5sTx252W-ymqBMe2K-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMRk-R43l8CRy82hbGqx-2" value="选择还未新增的chunk中的一台chunk加入到下述平衡计划中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+        <mxCell id="jMRk-R43l8CRy82hbGqx-2" value="选择还未新增的chunk中的一台chunk(Desc Chunk)加入到下述平衡计划中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
           <mxGeometry x="953.25" y="2040" width="297.5" height="40" as="geometry" />
         </mxCell>
       </root>
