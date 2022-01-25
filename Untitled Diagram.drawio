@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T08:18:55.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="3wV5OaeAflLOKBJRhPRY" version="16.4.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-01-25T08:23:54.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-40T1lXPOokUnE0w6uMN" version="16.4.5" type="github" pages="9">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="901" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -688,10 +688,25 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RmHCTXXupn8pzIGJl6LC" name="Page-9">
-    <mxGraphModel dx="946" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="288" dy="-544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0mcdQg71INrY20hwlUR0-0" />
         <mxCell id="0mcdQg71INrY20hwlUR0-1" parent="0mcdQg71INrY20hwlUR0-0" />
+        <mxCell id="cczWnomkdQ03MAe7g5Tw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;fontColor=#FFFFFF;" edge="1" parent="0mcdQg71INrY20hwlUR0-1" source="cczWnomkdQ03MAe7g5Tw-6" target="cczWnomkdQ03MAe7g5Tw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cczWnomkdQ03MAe7g5Tw-6" value="&lt;font style=&quot;font-size: 24px&quot;&gt;lbs-index&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;fillColor=#81b29a;" vertex="1" parent="0mcdQg71INrY20hwlUR0-1">
+          <mxGeometry x="910" y="2000" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cczWnomkdQ03MAe7g5Tw-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;etcd&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;fillColor=#f2cc8f;" vertex="1" parent="0mcdQg71INrY20hwlUR0-1">
+          <mxGeometry x="1310" y="2330" width="210" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cczWnomkdQ03MAe7g5Tw-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;lbs-master&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;fillColor=#3d405b;" vertex="1" parent="0mcdQg71INrY20hwlUR0-1">
+          <mxGeometry x="1690" y="2000" width="206" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cczWnomkdQ03MAe7g5Tw-15" value="&lt;font color=&quot;#000000&quot;&gt;定时上报当前chunk以及trp信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#FFFFFF;" vertex="1" parent="0mcdQg71INrY20hwlUR0-1">
+          <mxGeometry x="1040" y="2380" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
