@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T07:31:12.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ITmlDORanDdD_DBZHM5S" version="16.4.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-25T07:33:55.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m7s940kwMBOrhCRtvV1H" version="16.4.5" type="github" pages="7">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="901" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -625,10 +625,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8R7Qv-Xpzjm-SM_37lZl" name="Page-7">
-    <mxGraphModel dx="946" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-70" dy="-744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="e--awlBg75BL-U3-iJAE-0" />
         <mxCell id="e--awlBg75BL-U3-iJAE-1" parent="e--awlBg75BL-U3-iJAE-0" />
+        <mxCell id="78w3w6lNWgIxYFBFJ2nv-0" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Times New Roman&quot;&gt;lbs-index&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;fillColor=#81b29a;" vertex="1" parent="e--awlBg75BL-U3-iJAE-1">
+          <mxGeometry x="970" y="1940" width="130" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="78w3w6lNWgIxYFBFJ2nv-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;获取当前chunk以及trp信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="e--awlBg75BL-U3-iJAE-1">
+          <mxGeometry x="1115" y="1940" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPjQLne1L3Aqq_IvbDFH-0" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Times New Roman&quot;&gt;Etcd&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;fillColor=#3d405b;" vertex="1" parent="e--awlBg75BL-U3-iJAE-1">
+          <mxGeometry x="1370" y="1940" width="140" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
