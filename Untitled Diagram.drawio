@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T11:44:59.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="jrucQGnILE0hPBzTwy8U" version="16.4.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-01-25T12:00:44.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_nuYAseNeRJS1LCBFNNi" version="16.4.5" type="github" pages="11">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1131" dy="-631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,39 +242,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yqIicmLOVPXOKiXKTYcQ" name="TRP扩容">
-    <mxGraphModel dx="1251" dy="-574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1251" dy="-670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QjkoPsIQRl-Pro7B5hFz-0" />
         <mxCell id="QjkoPsIQRl-Pro7B5hFz-1" parent="QjkoPsIQRl-Pro7B5hFz-0" />
         <mxCell id="84n5sTx252W-ymqBMe2K-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-0" target="84n5sTx252W-ymqBMe2K-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-0" value="获取新增chunks信息以及通过Etcd中获取当前添加chunks集群中的其他chunk以及trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="988.75" y="1650" width="227.5" height="50" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;获取新增chunks信息以及通过Etcd中获取当前添加chunks集群中的其他chunk以及trp信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="988.76" y="1540" width="227.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-3" target="84n5sTx252W-ymqBMe2K-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-3" value="获取集群chunkQPS总和clusterQPS，并根据当前集群总chunk数量（包括新增chunk数量）获取平均一台chunk平均QPS(averageChunkQPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="944.5" y="1740" width="315" height="53" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;获取集群chunkQPS总和clusterQPS，并根据当前集群总chunk数量（包括新增chunk数量）获取平均一台chunk平均QPS(averageChunkQPS)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="864.76" y="1670" width="475.5" height="73" as="geometry" />
         </mxCell>
         <mxCell id="jMRk-R43l8CRy82hbGqx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-5" target="jMRk-R43l8CRy82hbGqx-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-5" value="对当前集群chunk(包括新增chunk)根据chunkQPS&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;进行排序，并对chunk内部trp根据trpQPS&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;进行排序，选择Srcchunk为chunkQPS最大的chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="933.75" y="1930" width="337.5" height="80" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;对当前集群chunk(包括新增chunk)根据chunkQPS&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;进行排序，并对chunk内部trp根据trpQPS&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;进行排序，选择Srcchunk为chunkQPS最大的chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="929.39" y="1880" width="346.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-10" target="84n5sTx252W-ymqBMe2K-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-10" value="基于平均chunkQPS计算上下界(5%)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="944.75" y="1840" width="315.5" height="60" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;基于平均chunkQPS计算上下界(5%)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="944.75" y="1780" width="315.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-16" target="84n5sTx252W-ymqBMe2K-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-16" value="从SrcChunk还未挑选的trp中选择trpQPS最大的trp，如果SrcChunk中trp全部遍历完则选择下一个chunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="962.5" y="2110" width="280" height="70" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;从SrcChunk还未挑选的trp中选择trpQPS最大的trp，如果SrcChunk中trp全部遍历完则选择下一个chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="958.26" y="2100" width="287.48" height="90" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-20" target="84n5sTx252W-ymqBMe2K-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -282,7 +282,7 @@
         <mxCell id="84n5sTx252W-ymqBMe2K-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;exitX=0.014;exitY=0.495;exitDx=0;exitDy=0;exitPerimeter=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-20" target="84n5sTx252W-ymqBMe2K-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-20" value="迁移SrcTrp后DescChunkQPS大于averageQPS上界" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+        <mxCell id="84n5sTx252W-ymqBMe2K-20" value="&lt;font style=&quot;font-size: 18px&quot;&gt;迁移SrcTrp后DescChunkQPS大于averageQPS上界&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
           <mxGeometry x="827" y="2220" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-22" target="84n5sTx252W-ymqBMe2K-30" edge="1">
@@ -301,8 +301,8 @@
             <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-22" value="迁移SrcTrp后DescChunkQPS在averageQPS上下界之间" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="827" y="2338" width="550" height="80" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;迁移SrcTrp后DescChunkQPS在averageQPS上下界之间&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="827" y="2330" width="550" height="88" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-24" value="选择下一个trp" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
           <mxGeometry x="620" y="2230" width="120" height="60" as="geometry" />
@@ -324,8 +324,8 @@
         <mxCell id="QmGAp2PCZTOW6I298WSz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-30" target="84n5sTx252W-ymqBMe2K-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-30" value="迁移SrcTrp后SrcChunkQPS小于averageQPS下界" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="827" y="2470" width="550" height="80" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-30" value="&lt;font style=&quot;font-size: 18px&quot;&gt;迁移SrcTrp后SrcChunkQPS小于averageQPS下界&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="827.5" y="2470" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.333;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-32" target="84n5sTx252W-ymqBMe2K-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -337,7 +337,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-38" value="&lt;span&gt;将该trp迁移加入扩容计划,并结束扩容平衡算法计算&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="1430" y="2348" width="120" height="60" as="geometry" />
+          <mxGeometry x="1440" y="2344" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QmGAp2PCZTOW6I298WSz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="QmGAp2PCZTOW6I298WSz-2" target="84n5sTx252W-ymqBMe2K-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -354,14 +354,14 @@
         <mxCell id="jMRk-R43l8CRy82hbGqx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="jMRk-R43l8CRy82hbGqx-2" target="84n5sTx252W-ymqBMe2K-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMRk-R43l8CRy82hbGqx-2" value="选择还未新增的chunk中的一台chunk(Desc Chunk)加入到下述平衡计划中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="953.25" y="2040" width="297.5" height="40" as="geometry" />
+        <mxCell id="jMRk-R43l8CRy82hbGqx-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;选择还未新增的chunk中的一台chunk(Desc Chunk)加入到下述平衡计划中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="953.0699999999999" y="2010" width="297.87" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ysm34bxXQ8MwlV_Ft3lU" name="缩容">
-    <mxGraphModel dx="1543" dy="244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="206" dy="-757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-0" />
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-1" parent="cg3gkHlyYtVyfJnu1a1E-0" />
@@ -744,7 +744,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1HLXpOlINlmwOXltTScO" name="缩容具体示例">
-    <mxGraphModel dx="1320" dy="-541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="-642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zDlj3FWWj4K81W5Hty3X-0" />
         <mxCell id="zDlj3FWWj4K81W5Hty3X-1" parent="zDlj3FWWj4K81W5Hty3X-0" />
@@ -1367,7 +1367,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-8ppRvoFOXIWrOuMS5JW" name="创建表具体示例">
-    <mxGraphModel dx="2411" dy="-416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="-537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ashXS21SCCTUXQFC8o5I-0" />
         <mxCell id="ashXS21SCCTUXQFC8o5I-1" parent="ashXS21SCCTUXQFC8o5I-0" />
