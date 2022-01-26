@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:23:12.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fidXj4gQjEHaJDVT7vbN" version="16.4.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-01-26T09:26:13.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Z91jX-XfseTWC-XFQjNb" version="16.4.5" type="github" pages="14">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1131" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,7 +460,7 @@
         <mxCell id="VR2DtorIyPhYnGyp4WAz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-3" target="VR2DtorIyPhYnGyp4WAz-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;对每组chunk根据chunkQPS进行排序，并对chunk内部trp根据trpQPS进行排序,并根据高于averageChunkQPSUp，在averageChunkQPSUp和averageChunkQPSDown之间，低于averageChunkQPSDown分为三组chunk（一次为High组，Middle组，Less组）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="W4zF-da2-VvDTF8uhzns-1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;对每组chunk根据chunkQPS进行排序，并对chunk内部trp根据trpQPS进行排序，并得到当前集群chunkQPS在上界，上界及下界之间，以及下接的区分chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="W4zF-da2-VvDTF8uhzns-1">
           <mxGeometry x="854.5" y="1540" width="494.99" height="130" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-17" target="VR2DtorIyPhYnGyp4WAz-7">
