@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:14:06.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="gXO1Up4jKKYE0sJYeHw8" version="16.4.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-01-26T09:15:01.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-xorI8kc02UOStz7u3w7" version="16.4.5" type="github" pages="14">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1131" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,6 +490,14 @@
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-10" value="&lt;span style=&quot;font-size: 18px&quot;&gt;迁移SrcTrp后SrcChunkQPS在averageQPS上下界之间&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="W4zF-da2-VvDTF8uhzns-1">
           <mxGeometry x="793.14" y="2160" width="618.74" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI8_a-dYPGBTGHhgFNwY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=18;fontColor=#FF00FF;" edge="1" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-12" target="VR2DtorIyPhYnGyp4WAz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="2398" />
+              <mxPoint x="1490" y="1580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;将该trp迁移加入到迁移计划中,实时更新集群中chunk的chunkQPS&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="W4zF-da2-VvDTF8uhzns-1">
           <mxGeometry x="977.62" y="2338" width="248.74" height="120" as="geometry" />
