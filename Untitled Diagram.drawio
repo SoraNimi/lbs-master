@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T03:45:52.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="mNps8iIasWxmtzQK-JBu" version="16.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-26T03:46:21.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="FPJ0qFkZm_tIryOd8f-X" version="16.4.5" type="github" pages="12">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1131" dy="-663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,11 +332,8 @@
         <mxCell id="84n5sTx252W-ymqBMe2K-32" value="将该trp迁移加入扩容计划" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
           <mxGeometry x="630" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMRk-R43l8CRy82hbGqx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-38" target="84n5sTx252W-ymqBMe2K-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="84n5sTx252W-ymqBMe2K-38" value="&lt;span&gt;将该trp迁移加入扩容计划,并结束扩容平衡算法计算&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="1440" y="2304" width="120" height="60" as="geometry" />
+        <mxCell id="84n5sTx252W-ymqBMe2K-38" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;将该trp迁移加入扩容计划,并结束扩容平衡算法计算&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
+          <mxGeometry x="1450" y="2287" width="150" height="94" as="geometry" />
         </mxCell>
         <mxCell id="QmGAp2PCZTOW6I298WSz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="QmGAp2PCZTOW6I298WSz-2" target="84n5sTx252W-ymqBMe2K-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
