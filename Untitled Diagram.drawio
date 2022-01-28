@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T13:23:17.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="uVsYhnjOSArnen_pwcZ1" version="16.4.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-01-28T13:23:52.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Ugpi4X3-auRSKT9M27XR" version="16.4.7" type="github" pages="16">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1581" dy="-461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -484,6 +484,14 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="60NN54ES601Czkzckbm7" name="自平衡2">
+    <mxGraphModel dx="1186" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fBGtxbRi5gr_-4oylf5Q-0" />
+        <mxCell id="fBGtxbRi5gr_-4oylf5Q-1" parent="fBGtxbRi5gr_-4oylf5Q-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="NAmjX9BvwKrC9EwPKeyr" name="CreateTable">
     <mxGraphModel dx="1318" dy="-579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -643,6 +651,9 @@
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-27" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ff00ff&quot;&gt;Y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Times New Roman;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="1370" y="1736" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T8z62aKz_Qr1JJ9Ha0x_-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;通过访问Etcd，获取当前集群chunk信息以及trp信息，并计算clusterQPS、averageChunkQPS、averageChunkQPSUp、averageChunkQPSDown&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="W4zF-da2-VvDTF8uhzns-1">
+          <mxGeometry x="891.6800000000001" y="1310" width="440.62" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
