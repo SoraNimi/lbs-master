@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T06:56:58.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="voKZk0GDqRZNAXiCEW5a" version="16.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-08T06:57:27.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HeOnaMCU6I7TDnazG0AH" version="16.5.3" type="github" pages="15">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,7 +258,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-5" value="&lt;span style=&quot;font-size: 18px&quot;&gt;对当前集群chunk(包括新增chunk)根据chunkQPS&lt;/span&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序，并对chunk内部trp根据trpQPS&lt;/span&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="928.88" y="1790" width="346.25" height="100" as="geometry" />
+          <mxGeometry x="929.39" y="1754" width="346.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="84n5sTx252W-ymqBMe2K-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="84n5sTx252W-ymqBMe2K-16" target="84n5sTx252W-ymqBMe2K-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -305,7 +305,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jMRk-R43l8CRy82hbGqx-2" value="&lt;span style=&quot;font-size: 18px&quot;&gt;选择超过上界的chunk中chunkQPS最高的chunk(Src Chunk)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="QjkoPsIQRl-Pro7B5hFz-1" vertex="1">
-          <mxGeometry x="952.04" y="1920" width="300.94" height="90" as="geometry" />
+          <mxGeometry x="951.53" y="1900" width="300.94" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sPbkDFvZ0e7HieSJf4v9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=18;fontColor=#FF00FF;" parent="QjkoPsIQRl-Pro7B5hFz-1" source="sPbkDFvZ0e7HieSJf4v9-4" target="sPbkDFvZ0e7HieSJf4v9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -325,7 +325,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1640" y="2585" />
-              <mxPoint x="1640" y="1830" />
+              <mxPoint x="1640" y="1794" />
             </Array>
           </mxGeometry>
         </mxCell>
