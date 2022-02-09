@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T03:17:03.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="IUmK4ocFKiDoYxqqzMaJ" version="16.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T03:17:22.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="LfhAb3tlkzFjxGC7RRs3" version="16.5.3" type="github" pages="15">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -522,7 +522,7 @@
         <mxCell id="FJGix1RhnxzX44iqtkDC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6c9JAxjMda_a9QhiG_l-1" source="FJGix1RhnxzX44iqtkDC-3" target="v7gNQ5nlZRriFsrlUyQd-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FJGix1RhnxzX44iqtkDC-3" value="&lt;span style=&quot;font-size: 18px&quot;&gt;选择Desc Chunk为新增机器中未被选择过的chunk&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="Z6c9JAxjMda_a9QhiG_l-1">
+        <mxCell id="FJGix1RhnxzX44iqtkDC-3" value="&lt;span style=&quot;font-size: 18px&quot;&gt;遍历新增chunk机器，选择Desc Chunk为新增机器中未被选择过的chunk&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="Z6c9JAxjMda_a9QhiG_l-1">
           <mxGeometry x="927.2099999999999" y="1660" width="350.61" height="60" as="geometry" />
         </mxCell>
       </root>
