@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:43:48.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="sA4ApQywa6rw0bMQe5QS" version="16.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-09T03:07:06.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="82mEVE5kEb3eSlOaZ4Fu" version="16.5.3" type="github" pages="15">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yqIicmLOVPXOKiXKTYcQ" name="TRP扩容">
-    <mxGraphModel dx="946" dy="-1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="-1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QjkoPsIQRl-Pro7B5hFz-0" />
         <mxCell id="QjkoPsIQRl-Pro7B5hFz-1" parent="QjkoPsIQRl-Pro7B5hFz-0" />
@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rs2mZJlhdK5szjYNph2C" name="TRP扩容New">
-    <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="-415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Z6c9JAxjMda_a9QhiG_l-0" />
         <mxCell id="Z6c9JAxjMda_a9QhiG_l-1" parent="Z6c9JAxjMda_a9QhiG_l-0" />
@@ -369,7 +369,7 @@
         <mxCell id="v7gNQ5nlZRriFsrlUyQd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Z6c9JAxjMda_a9QhiG_l-1" source="v7gNQ5nlZRriFsrlUyQd-5" target="v7gNQ5nlZRriFsrlUyQd-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7gNQ5nlZRriFsrlUyQd-5" value="&lt;span style=&quot;font-size: 18px&quot;&gt;对当前集群chunk(包括新增chunk)根据chunkQPS&lt;/span&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序，并对chunk内部trp根据trpQPS&lt;/span&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="Z6c9JAxjMda_a9QhiG_l-1" vertex="1">
+        <mxCell id="v7gNQ5nlZRriFsrlUyQd-5" value="&lt;span style=&quot;font-size: 18px&quot;&gt;对当前集群chunk(包括新增chunk)根据chunkQPS&lt;/span&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序，并对chunk内部trp根据trpQPS&lt;/span&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;从小到大&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="Z6c9JAxjMda_a9QhiG_l-1" vertex="1">
           <mxGeometry x="928.88" y="1790" width="346.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="v7gNQ5nlZRriFsrlUyQd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="Z6c9JAxjMda_a9QhiG_l-1" source="v7gNQ5nlZRriFsrlUyQd-7" target="v7gNQ5nlZRriFsrlUyQd-10" edge="1">
