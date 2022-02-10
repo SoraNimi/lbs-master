@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:02:52.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SJHqGAmsRH92whKdTi5z" version="16.5.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-10T02:35:56.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="hXIQaLbSGzj-010zabuK" version="16.5.4" type="github" pages="15">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="946" dy="-641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -720,11 +720,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ysm34bxXQ8MwlV_Ft3lU" name="缩容">
-    <mxGraphModel dx="33" dy="-689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-99" dy="-763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-0" />
         <mxCell id="cg3gkHlyYtVyfJnu1a1E-1" parent="cg3gkHlyYtVyfJnu1a1E-0" />
-        <mxCell id="yY4AW2U_gzbADD9gMaGd-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-1" target="p0NkoxevK3sSNU6XxeeL-3">
+        <mxCell id="yY4AW2U_gzbADD9gMaGd-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-1" target="p0NkoxevK3sSNU6XxeeL-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p0NkoxevK3sSNU6XxeeL-1" value="根据传入的缩容chunks信息，获取当前集群其他chunk以及trp信息以及去其他集群上查找要缩容机器上的trp信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
@@ -739,7 +739,7 @@
         <mxCell id="p0NkoxevK3sSNU6XxeeL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-5" target="p0NkoxevK3sSNU6XxeeL-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p0NkoxevK3sSNU6XxeeL-5" value="选择还未迁移的trp中trpQPS最小的trp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
+        <mxCell id="p0NkoxevK3sSNU6XxeeL-5" value="选择还未迁移的trp中trpQPS最大的trp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="cg3gkHlyYtVyfJnu1a1E-1" vertex="1">
           <mxGeometry x="972.5" y="2220" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p0NkoxevK3sSNU6XxeeL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="cg3gkHlyYtVyfJnu1a1E-1" source="p0NkoxevK3sSNU6XxeeL-8" target="p0NkoxevK3sSNU6XxeeL-5" edge="1">
@@ -2115,7 +2115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zes6QmUElQsseL61mrWy" name="扩容具体示例">
-    <mxGraphModel dx="2719" dy="-113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2547" dy="-209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mYXkEAXvY3KoDD8qv3P1-0" />
         <mxCell id="mYXkEAXvY3KoDD8qv3P1-1" parent="mYXkEAXvY3KoDD8qv3P1-0" />
