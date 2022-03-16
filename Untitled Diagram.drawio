@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T06:33:26.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="P2gjSIC1FFzoMnDN_cee" version="16.6.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-03-16T06:36:57.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="pEP6ZkMVO82i5vtiaySr" version="16.6.4" type="github" pages="15">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1186" dy="-637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,17 +719,11 @@
         <mxCell id="QpsA9uN1M2c1eAOB41Yn-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="QjkoPsIQRl-Pro7B5hFz-1" source="QpsA9uN1M2c1eAOB41Yn-1" target="QpsA9uN1M2c1eAOB41Yn-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QpsA9uN1M2c1eAOB41Yn-1" value="&lt;span style=&quot;font-size: 18px&quot;&gt;获取需要扩容的机器信息CreateChunkServers并加入到需要扩容的集群中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+        <mxCell id="QpsA9uN1M2c1eAOB41Yn-1" value="&lt;span style=&quot;font-size: 18px&quot;&gt;获取需要扩容的机器信息CreateChunkServers并执行AddCreateChunks函数&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;加入到需要扩容的集群中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
           <mxGeometry x="838.49" y="5660" width="472.47" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="QpsA9uN1M2c1eAOB41Yn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QjkoPsIQRl-Pro7B5hFz-1" source="QpsA9uN1M2c1eAOB41Yn-3" target="QpsA9uN1M2c1eAOB41Yn-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QpsA9uN1M2c1eAOB41Yn-3" value="&lt;span style=&quot;font-size: 18px&quot;&gt;对当前集群chunk(包括新增chunk)根据chunkQPS&lt;/span&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序，并对chunk内部trp根据trpQPS&lt;/span&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;从大到小&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;进行排序&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
+        <mxCell id="QpsA9uN1M2c1eAOB41Yn-3" value="&lt;span style=&quot;font-size: 18px&quot;&gt;执行自平衡函数HandleBalance直到不再产生新的move/copy Datablock任务为止&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
           <mxGeometry x="901.5999999999999" y="5814" width="346.25" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="QpsA9uN1M2c1eAOB41Yn-18" value="&lt;span style=&quot;font-size: 18px&quot;&gt;选择超过上界的chunk中chunkQPS最高的chunk(Src Chunk)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="QjkoPsIQRl-Pro7B5hFz-1">
-          <mxGeometry x="924.78" y="5960" width="300.94" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
