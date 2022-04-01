@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T07:04:33.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="zHo8YPBwdWe64h04Av8I" version="17.1.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-04-01T07:11:24.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="WmfHCy8r-URHf5YB1R71" version="17.1.5" type="github" pages="16">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
     <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -250,7 +250,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q03OXQJirJoWt07aVfhd" name="自平衡new">
-    <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="-697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="W4zF-da2-VvDTF8uhzns-0" />
         <mxCell id="W4zF-da2-VvDTF8uhzns-1" parent="W4zF-da2-VvDTF8uhzns-0" />
@@ -355,7 +355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60NN54ES601Czkzckbm7" name="自平衡2">
-    <mxGraphModel dx="2013" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2145" dy="-645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fBGtxbRi5gr_-4oylf5Q-0" />
         <mxCell id="fBGtxbRi5gr_-4oylf5Q-1" parent="fBGtxbRi5gr_-4oylf5Q-0" />
@@ -371,7 +371,7 @@
         <mxCell id="nV0bwnPDPdAwy34_UZR7-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fBGtxbRi5gr_-4oylf5Q-1" source="OoR4Tojbx3LySTL5QyT5-14" target="OoR4Tojbx3LySTL5QyT5-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OoR4Tojbx3LySTL5QyT5-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;当前是否有仍高于上界，且此时cpu.idle低于70%的chunk&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="fBGtxbRi5gr_-4oylf5Q-1" vertex="1">
+        <mxCell id="OoR4Tojbx3LySTL5QyT5-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;当前是否有高于上界（条件可改）chunk&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="fBGtxbRi5gr_-4oylf5Q-1" vertex="1">
           <mxGeometry x="207.5" y="1870" width="605" height="140" as="geometry" />
         </mxCell>
         <mxCell id="OoR4Tojbx3LySTL5QyT5-18" value="&lt;font style=&quot;font-size: 18px&quot;&gt;结束自平衡操作&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="fBGtxbRi5gr_-4oylf5Q-1" vertex="1">
