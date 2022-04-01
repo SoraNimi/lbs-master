@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T07:42:38.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="98o_JVIW6d0jsLa5v7Nu" version="17.1.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-04-01T07:44:43.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="LlYUy9fTMpvB_AMVJMML" version="17.1.5" type="github" pages="15">
   <diagram id="OvbomzVgaig5-DfMmS36" name="Page-16">
     <mxGraphModel dx="1186" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -637,19 +637,19 @@
           <mxGeometry x="770" y="2230" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jq_QuRscCOMcsBofxxH1-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;将创建表中的trp按排序依次加入到当前集群中的chunk中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="_tTqbgAYzmCVeNze15fX-1" vertex="1">
-          <mxGeometry x="952" y="2810" width="280" height="70" as="geometry" />
+          <mxGeometry x="951.13" y="2790" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yS8dRaQPH3AOJQcDYGO4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="jq_QuRscCOMcsBofxxH1-4" target="yS8dRaQPH3AOJQcDYGO4-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jq_QuRscCOMcsBofxxH1-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font&gt;根据传入table的PartitionId(分区数)以及ReplicationId(副本数)计算trp总数，并&lt;/font&gt;&lt;font&gt;根据当前chunk中的chunkQPS从小到大进行排序&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="_tTqbgAYzmCVeNze15fX-1" vertex="1">
+        <mxCell id="jq_QuRscCOMcsBofxxH1-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font&gt;根据传入table的PartitionId(分区数)以及ReplicationId(副本数)计算trp总数&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="_tTqbgAYzmCVeNze15fX-1" vertex="1">
           <mxGeometry x="892.25" y="2530" width="399.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yS8dRaQPH3AOJQcDYGO4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="_tTqbgAYzmCVeNze15fX-1" source="yS8dRaQPH3AOJQcDYGO4-0" target="jq_QuRscCOMcsBofxxH1-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yS8dRaQPH3AOJQcDYGO4-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
-          <mxGeometry x="892.25" y="2670" width="399.5" height="90" as="geometry" />
+        <mxCell id="yS8dRaQPH3AOJQcDYGO4-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;当前集群chunkQPS排序&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="_tTqbgAYzmCVeNze15fX-1">
+          <mxGeometry x="892.25" y="2670" width="397.75" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1HLXpOlINlmwOXltTScO" name="缩容具体示例">
-    <mxGraphModel dx="1186" dy="-637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zDlj3FWWj4K81W5Hty3X-0" />
         <mxCell id="zDlj3FWWj4K81W5Hty3X-1" parent="zDlj3FWWj4K81W5Hty3X-0" />
@@ -4124,7 +4124,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XyXpwUBWXRdxGSNaRkz0" name="自平衡示例">
-    <mxGraphModel dx="1186" dy="-637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HKmdvolGnBzrn2o5PSfR-0" />
         <mxCell id="HKmdvolGnBzrn2o5PSfR-1" parent="HKmdvolGnBzrn2o5PSfR-0" />
