@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T03:24:41.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="kiZLpv4vgI1jzXfP8ibZ" version="17.1.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-04-01T07:04:33.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="zHo8YPBwdWe64h04Av8I" version="17.1.5" type="github" pages="16">
   <diagram id="I3_SwhToVylOWt1q2Nj9" name="Page-1">
-    <mxGraphModel dx="1318" dy="-656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,14 +250,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q03OXQJirJoWt07aVfhd" name="自平衡new">
-    <mxGraphModel dx="1186" dy="-637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="W4zF-da2-VvDTF8uhzns-0" />
         <mxCell id="W4zF-da2-VvDTF8uhzns-1" parent="W4zF-da2-VvDTF8uhzns-0" />
         <mxCell id="VR2DtorIyPhYnGyp4WAz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-3" target="VR2DtorIyPhYnGyp4WAz-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;对每组chunk根据chunkQPS&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;进行排序，并对chunk内部trp根据trpQPS&lt;font color=&quot;#cc0000&quot;&gt;从大到小&lt;/font&gt;进行排序，并得到当前集群chunkQPS在上界，上界及下界之间，以及下界的区分chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;1、对chunk排序&lt;br&gt;2、对chunk内部TRP排序&lt;br&gt;3、根据上下界区分冷热Chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="855.01" y="1490" width="494.99" height="130" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-17" target="VR2DtorIyPhYnGyp4WAz-7" edge="1">
@@ -276,7 +276,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-7" value="&lt;span style=&quot;font-size: 18px&quot;&gt;是否存在该情况trp&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-7" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Src Chunk上TRP是否可以迁移到Desc Chunk&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="826.99" y="2030" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-10" target="VR2DtorIyPhYnGyp4WAz-14" edge="1">
@@ -296,7 +296,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;将该trp迁移加入到迁移计划中,实时更新集群中chunk的chunkQPS&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;将该trp迁移加入到迁移计划中,实时更新集群&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="977.62" y="2338" width="248.74" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-14" target="VR2DtorIyPhYnGyp4WAz-21" edge="1">
@@ -313,10 +313,10 @@
         <mxCell id="VR2DtorIyPhYnGyp4WAz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-16" target="VR2DtorIyPhYnGyp4WAz-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;选择Src Chunk为未选择过的，ChunkQPS大于上界的最高的Chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;选择Src Chunk&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="940.74" y="1680" width="322.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-17" value="&lt;span style=&quot;font-size: 18px&quot;&gt;选择Desc Chunk为chunkQPS小于上界且最小的chunk；选择SrcChunk上Trp move到Desc Chunk后DescChunkQPS小于上界的，且SrcChunkQPS高于下界的trp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-17" value="&lt;span style=&quot;font-size: 18px&quot;&gt;选择Desc Chunk；在Src Chunk上根据规则选择Src TRP&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="861.85" y="1880" width="480.28" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-21" target="VR2DtorIyPhYnGyp4WAz-17" edge="1">
@@ -330,7 +330,7 @@
         <mxCell id="T8z62aKz_Qr1JJ9Ha0x_-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="W4zF-da2-VvDTF8uhzns-1" source="VR2DtorIyPhYnGyp4WAz-21" target="VR2DtorIyPhYnGyp4WAz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VR2DtorIyPhYnGyp4WAz-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Src Chunk是否已经遍历完全部trp&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
+        <mxCell id="VR2DtorIyPhYnGyp4WAz-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Src Chunk是否已经遍历完全部TRP&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#77aac2;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=1;glass=0;comic=0;gradientColor=none;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
           <mxGeometry x="827" y="1770" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VR2DtorIyPhYnGyp4WAz-22" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ff00ff&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Times New Roman;" parent="W4zF-da2-VvDTF8uhzns-1" vertex="1">
@@ -355,7 +355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60NN54ES601Czkzckbm7" name="自平衡2">
-    <mxGraphModel dx="2178" dy="-415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="-640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fBGtxbRi5gr_-4oylf5Q-0" />
         <mxCell id="fBGtxbRi5gr_-4oylf5Q-1" parent="fBGtxbRi5gr_-4oylf5Q-0" />
@@ -433,7 +433,7 @@
         <mxCell id="nV0bwnPDPdAwy34_UZR7-1" value="&lt;span style=&quot;color: rgb(255 , 0 , 255) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Y&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" parent="fBGtxbRi5gr_-4oylf5Q-1" vertex="1">
           <mxGeometry x="530" y="2020" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uLJaRRA4d5amHOJAJkq2-4" value="&lt;span style=&quot;color: rgb(255 , 0 , 255) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;N&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#CC0000;" vertex="1" parent="fBGtxbRi5gr_-4oylf5Q-1">
+        <mxCell id="uLJaRRA4d5amHOJAJkq2-4" value="&lt;span style=&quot;color: rgb(255 , 0 , 255) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;N&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#CC0000;" parent="fBGtxbRi5gr_-4oylf5Q-1" vertex="1">
           <mxGeometry x="140" y="1890" width="30" height="40" as="geometry" />
         </mxCell>
       </root>
